@@ -8,7 +8,7 @@ function startSpeechRecognition() {
    
     if (result.toLowerCase().includes("красный")) {
       document.body.style.backgroundColor = "red";
-    } else if (result.toLowerCase().includes("чёрный")) {
+    } else if (result.toLowerCase().includes("негр")) {
       document.body.style.backgroundColor = "black";
     } else if (result.toLowerCase().includes("зелёный")) {
       document.body.style.backgroundColor = "green";
